@@ -28,5 +28,5 @@ deploy:
   file_glob: true
   file: "dist/releases/*"
   on:
-    repo: FreeCol/freecol
+    repo: sunshuaiii/freecol
     branch: slim
