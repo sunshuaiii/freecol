@@ -26,3 +26,4 @@ deploy:
   token: $GITHUB_TOKEN
   file_glob: true
   file: "dist/releases/*"
+
