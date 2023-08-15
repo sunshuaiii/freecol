@@ -23,6 +23,6 @@ deploy:
   tag_name: "nightly-$DSTAMP"
   prerelease: true
   name: "Nightly Release: $DSTAMP"
-    token: $GITHUB_TOKEN
+  token: $GITHUB_TOKEN
   file_glob: true
   file: "dist/releases/*"
